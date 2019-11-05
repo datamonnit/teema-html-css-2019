@@ -1,0 +1,39 @@
+body {
+    font-size: 15px/1.5;
+    background-color: #f4f4f4;
+    margin: 0; padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #35424a;
+    color: #f4f4f4;
+    min-height: 70px;
+    padding: 10px;
+}
+
+header a {
+    color: #f4f4f4;
+    font-size: 18px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header ul {
+    margin: 0; padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+#branding {
+    float: left;
+}

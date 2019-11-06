@@ -12,11 +12,16 @@ body {
     min-width: 700px;
 }
 
+.highlight {
+    color: #a4bd39;
+}
+
 header {
     background-color: #35424a;
     color: #f4f4f4;
     min-height: 70px;
     padding: 10px;
+    border-bottom: #a4bd39 4px solid;
 }
 
 header a {
@@ -38,9 +43,33 @@ header li {
 
 header nav {
     float: right;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 #branding {
     float: left;
+}
+
+#branding img {
+    height: 40px;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    transform: rotate(30deg);
+}
+
+#showcase {
+    background-image: url('img/screenofcode2.png');
+    min-height: 400px;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 60px 5px;
+}
+
+#showcase h2 {
+    font-size: 60px;
+}
+
+#showcase p {
+    font-size: 22px;
 }

@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 15px/1.5;
     background-color: #f4f4f4;
@@ -19,8 +23,7 @@ body {
 header {
     background-color: #35424a;
     color: #f4f4f4;
-    min-height: 70px;
-    padding: 10px;
+    min-height: 90px;
     border-bottom: #a4bd39 4px solid;
 }
 
@@ -43,7 +46,7 @@ header li {
 
 header nav {
     float: right;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #branding {
@@ -54,9 +57,13 @@ header nav {
     height: 40px;
     display: block;
     float: left;
-    margin: 0 10px 0 0;
+    margin: 0 10px 0 20px;
     transform: rotate(30deg);
 }
+
+/* ***************** */
+/* Showcase -tyylit */
+/* ***************** */
 
 #showcase {
     background-image: url('img/screenofcode2.png');
@@ -72,4 +79,72 @@ header nav {
 
 #showcase p {
     font-size: 22px;
+}
+
+/* ****************** */
+/* Newsletter -tyylit */
+/* ****************** */
+
+#newsletter {
+    background-color: #35424a;
+    color: #f4f4f4;
+    height: 90px;
+}
+
+#newsletter h2 {
+    width: 50%;
+    float: left;
+    margin-top: 25px;
+}
+
+#newsletter form {
+    margin-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+#newsletter input[type="email"] {
+    padding: 5px;
+    width: 60%;
+    font-size: 1.1em;
+}
+
+#newsletter button {
+    width: 30%;
+    padding: 6px;
+    font-size: 1.1em;
+    background-color: #a4bd39;
+    border: none;
+}
+
+/* ************* */
+/* Boxes -tyylit */
+/* ************* */
+
+#boxes {
+    margin: 30px 0;
+}
+
+.box {
+    width: 33%;
+    float: left;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.box img {
+    height: 140px;
+    width: auto;
+}
+
+/* ************** */
+/* Footer -tyylit */
+/* ************** */
+footer {
+    background-color: #335b2c;
+    color: #f4f4f4;
+    border-top: #a4bd39 4px solid;
+    text-align: center;
+    clear: both;
+    padding: 20px;
 }

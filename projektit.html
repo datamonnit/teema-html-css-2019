@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile-style.css">
+    <script src="my.js"></script>
 </head>
 <body>
 
@@ -15,13 +16,16 @@
     <div id="branding">
         <h1> <img src="img/esedu_favico.png" alt="Esedu logo"> Data<span class="highlight">monnit</span></h1>
     </div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Koti</a></li>
-            <li><a href="tietoja.html">Tietoja</a></li>
-            <li><a href="projektit.html" class="highlight">Projektit</a></li>
-        </ul> 
+    <nav id="menu" class="top-menu">
+        <a href="index.html">Koti</a>
+        <a href="tietoja.html">Tietoja</a>
+        <a href="projektit.html" class="highlight">Projektit</a>
     </nav>
+    <a href="#" class="menu-toggle" onclick="hideMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </a>
 </header>
     
 <section id="newsletter">

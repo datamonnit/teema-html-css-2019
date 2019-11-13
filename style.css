@@ -20,6 +20,12 @@ body {
     color: #a4bd39;
 }
 
+.dark {
+    background-color: #35424a;
+    color: #f4f4f4;
+    padding: 2vh;
+}
+
 header {
     background-color: #35424a;
     color: #f4f4f4;
@@ -86,6 +92,7 @@ header nav {
 /* ****************** */
 
 #newsletter {
+    clear:both;
     background-color: #35424a;
     color: #f4f4f4;
     height: 90px;
@@ -136,6 +143,79 @@ header nav {
     height: 140px;
     width: auto;
 }
+
+/* **************** */
+/* Main-col -tyylit */
+/* **************** */
+/* Main */
+#main-col {
+    float: left;
+    width: 64%;
+    line-height: 1.5em;
+}
+
+#main-col h1 {
+    font-size: 1.5em;
+}
+
+#sidebar {
+    float: right;
+    width: 33%;
+    line-height: 1.5em;
+    padding: 15px;
+    margin: 3em 0;
+}
+
+#sidebar h3 {
+    font-size: 1.3em;
+}
+
+#sidebar img {
+    width: 100%;
+}
+
+
+
+/* Projects */
+
+#projects {
+    padding: 0;
+}
+
+#projects li {
+    list-style-type: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    background-color: #e6e6e6;
+    margin-bottom: 10px;
+}
+
+
+.message input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 4px;
+    font-size: 1.1em;
+}
+
+.message textarea {
+    font-family: 'Lato', sans-serif;
+    padding: 4px;
+    width: 100%;
+    height: 10em;
+    font-size: 1.1em;
+}
+
+.message button {
+    width: 100%;
+    height: 40px;
+    background-color: #a4bd39;
+    border: 0;
+    font-size: 1.1em;
+}
+
+
 
 /* ************** */
 /* Footer -tyylit */

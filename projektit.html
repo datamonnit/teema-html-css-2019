@@ -7,34 +7,41 @@
     <title>Projektit</title>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-style.css">
 </head>
 <body>
 
-    <header>
-        <div id="branding">
-            <h1> <img src="img/esedu_favico.png" alt="Esedu logo"> Data<span class="highlight">monnit</span></h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Koti</a></li>
-                <li><a href="tietoja.html">Tietoja</a></li>
-                <li><a href="projektit.html" class="highlight">Projektit</a></li>
-            </ul> 
-        </nav>
-    </header>
+<header>
+    <div id="branding">
+        <h1> <img src="img/esedu_favico.png" alt="Esedu logo"> Data<span class="highlight">monnit</span></h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Koti</a></li>
+            <li><a href="tietoja.html">Tietoja</a></li>
+            <li><a href="projektit.html" class="highlight">Projektit</a></li>
+        </ul> 
+    </nav>
+</header>
     
-    <section>
+<section id="newsletter">
+    <div class="container">
         <h2>Tilaa uutiskirjeemme</h2>
-        <input type="text" placeholder="Sähköpostiosotteesi">
-    </section>
+        <form>
+            <input type="email" placeholder="Sähköpostiosotteesi">
+            <button>Tilaa</button>
+        </form>
+    </div>
+</section>
     
-    <section>
+<section>
 
-        <article>
-
+<section id="main">
+    <div class="container">
+        <article id="main-col">
             <h2>Tietoja projekteistamme</h2>
 
-            <ul>
+            <ul id="projects">
                 <li>
                     <h3>Ohjemointiprojekti</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos harum rerum ex natus rem iusto consequuntur deserunt maxime commodi, explicabo, obcaecati fugiat est incidunt! Totam in repellat error esse dolorem!Illum mollitia quis et fuga reprehenderit ducimus sed amet? Recusandae aut quasi reiciendis tempora, quisquam suscipit. Id nulla eveniet dolor commodi quidem numquam laborum at deserunt officiis inventore! Magni, molestias!</p>
@@ -51,31 +58,32 @@
                     <p>Valmis: 30.10.2018</p>
                 </li>
             </ul>
-
         </article>
 
-        <aside>
-            <h3>Lähetä viesti</h3>
-            <form action="">
-                
-                <label for="nimi">Nimi</label><br>
-                <input type="text" placeholder="nimesi..."><br>
-
-                <label for="email">Sähköposti</label><br>
-                <input type="text" placeholder="sähköpostiosoitteesi..."><br>
-
-                <label for="viesti">Viesti</label><br>
-                <textarea name="" id="" cols="30" rows="10">Viesti tähän</textarea><br>
-
-                <input type="submit" value="Lähetä">
-            </form>
+        <aside id="sidebar">
+            <div class="dark">
+                <h3>Lähetä viesti</h3>
+                <form class="message" action="">
+                    
+                    <label for="nimi">Nimi</label><br>
+                    <input type="text" placeholder="nimesi..."><br>
+        
+                    <label for="email">Sähköposti</label><br>
+                    <input type="text" placeholder="sähköpostiosoitteesi..."><br>
+        
+                    <label for="viesti">Viesti</label><br>
+                    <textarea name="" id="" cols="30" rows="10">Viesti tähän</textarea><br>
+        
+                    <input type="submit" value="Lähetä">
+                </form>
+            </div>
         </aside>
+    </div>
+</section>
 
-    </section>
-
-    <footer>
-        <p>Datamonnit Web Design, Copyright © 2017</p>
-    </footer>
+<footer>
+    <p>Datamonnit Web Design, Copyright © 2017</p>
+</footer>
             
 </body>
 </html>
